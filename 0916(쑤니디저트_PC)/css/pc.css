@@ -43,7 +43,7 @@ header{
 }
 .gnb{
     transform:translateY(-30px);
-    height:40px;width:3000px;
+    height:40px;width:100%;
     transform:translateX(500px);
     background:rgba(255, 255, 255, .9);
     position:absolute;
@@ -58,7 +58,7 @@ header{
 .gnb>ul{
     display:flex;
     width:1200px;
-    /* justify-content:right; */
+    justify-content:right;
     margin:0px auto;
 }
 .gnb>ul>li{
@@ -110,7 +110,8 @@ main{}
 .mslide{display:none;}
 .con{
     width:980px;
-    margin:0px auto;
+    margin:20px auto 40px auto;
+    margin-bottom:15px;
     display:grid;
     grid-gap:20px;
     grid-template-columns:280px 380px 280px;
