@@ -75,7 +75,7 @@ i.fa-search{
 }
 .lnb ul > li:last-child input{  height:30px;}
 .lnb ul > li:last-child i.fa-search{
-  position:absolute;  top:-10px;left:90%;
+  position:absolute;  top:-10px;left:94%;
   color:#fff;font-size:1.8rem;
 }
 
@@ -108,8 +108,8 @@ i.fa-search{
 
 /* 메인콘텐츠 서식 */
 main{
-  margin-bottom:30px;
   padding-top:70px;
+  margin-bottom:30px;
 }
 .slide{
   width:100%;
@@ -120,6 +120,8 @@ main{
 .pcslide{display:none;}
 article img{width:100%;}
 .con{
+  /* margin:0px auto; */
+  /* max-width:414px; */
   display:grid;
   padding:0px 1%;
   box-sizing: border-box;
@@ -139,8 +141,6 @@ article img{width:100%;}
 
 .con > h2{display:none;}
 .con article{
-  /* background:#ffff00; */
-  /* height:270px; */
   margin-bottom:10px;
 }
 .con .new_item{grid-area:item;}
@@ -166,7 +166,6 @@ article img{width:100%;}
   text-indent:-9999px;
   height:190px;
 }
-
 .notice li, .news li{
   text-indent:10px;
   min-width:320px;
